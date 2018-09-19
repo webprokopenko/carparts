@@ -734,7 +734,7 @@ img {
 .single_gallery_item:hover > img {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
-    filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feGaussianBlur stdDeviation="8" /></filter></svg>#filter');
+    filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="https://www.w3.org/2000/svg"><filter id="filter"><feGaussianBlur stdDeviation="8" /></filter></svg>#filter');
     -webkit-filter: blur(8px);
     filter: blur(8px);
     filter: progid:DXImageTransform.Microsoft.Blur(pixelradius=8);
